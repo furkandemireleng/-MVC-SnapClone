@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class UserSingeton {
+    static let sharedUserInfo = UserSingeton()
+    
+    var email = ""
+    var username = ""
+    
+    
+    private  init(){
+        
+    }
+    
+}
